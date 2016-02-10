@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "hello world"
+  File.read(File.join('public', 'portfolio_awesome'))
 end
